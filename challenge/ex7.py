@@ -1,0 +1,21 @@
+list=[1,2,3,4,5] 
+print("This is the original list : ", list) 
+list.append(6) 
+print("This is the list after adding 6 : ", list) 
+list.insert(0,0) 
+print("This is the list after inserting 0 at the beginning : ", list) 
+print("This is the first element of the list : ", list[0]) 
+print("This is the last element : ", list[-1]) 
+list.remove(3) 
+print("This is the list after removing 3 : ", list) 
+print("The length of the list is : ", len(list))
+
+print("\n")
+
+tuple=(1,2,3,4,5) 
+print("This is the original tuple : ", tuple) 
+print("Length of tuple : ", len(tuple)) 
+print("Access element at index 1 : ", tuple[1]) 
+print("Index of 3 : ", tuple.index(3)) 
+print("This is the first elements of tuple 0 : ", tuple[0]) 
+print("This is the last elements of tuple : ", tuple[-1])
